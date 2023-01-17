@@ -1,7 +1,7 @@
 import React from "react";
 import { PROYECTS } from '../data/proyects';
 
-import { FaLink } from 'react-icons/fa';
+import { FaLink, FaGithub } from 'react-icons/fa';
 
 export default function Proyectos() {
   return (
@@ -14,7 +14,7 @@ export default function Proyectos() {
               <div className="project-title">
                 <h3 className="shadow-1">{project.title}</h3>
                 <div className="project-buttons project-git">
-                  { project.repo && <a href={project.repo} target="_blank" rel="noreferrer"><i className="devicon-github-original shadow-1 k-icon"></i></a>}
+                  { project.repo && <a href={project.repo} target="_blank" rel="noreferrer"><FaGithub className="shadow-1 k-icon"/></a>}
                   { project.demo && <a href={project.demo} target="_blank" rel="noreferrer"><FaLink className="shadow-1 k-icon"/></a>}
                 </div>
               </div>
