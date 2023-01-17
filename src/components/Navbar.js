@@ -8,7 +8,7 @@ export default function Navbar(props) {
           <div className="navbar">
             <NavLink to="/">Inicio</NavLink>
             <NavLink to="/proyectos">Proyectos</NavLink>
-            <a href="/">Contacto</a>
+            <NavLink to="/contacto">Contacto</NavLink>
           </div>
         </header>
       </>
