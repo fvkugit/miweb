@@ -210,6 +210,8 @@ margin: 2vw 0 0 2vw;
     margin-top: 0.5em;
     margin-left: 0.5em;
     font-size: 2em;
+    /* Must use filter for svg icons */
+    filter:drop-shadow(2px 2px 9px #000)
 }
 .contact-buttons{
     display:block;
