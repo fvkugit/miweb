@@ -204,3 +204,13 @@ margin: 2vw 0 0 2vw;
     margin: 40px 0px;
 }
 
+
+/* Contact area */
+.contact-icon{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+.contact-buttons{
+    display:block;
+}
