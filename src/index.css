@@ -186,24 +186,27 @@ margin: 2vw 0 0 2vw;
     position: relative;
 }
 
-@media (min-width: 900px) {
-    .projects { grid-template-columns: repeat(2, 1fr); max-width: 65vw;}
-    .project { min-width: 28vw;}
-}
 .main{
     min-height: calc(100vh - 170px);
 
 }
-.inicio-main h1, .main h1{
+.inicio-main h1, .main h1, .inicio-main h2{
     margin: 0 0 5px 0;
     border-bottom: 3px solid #1E90FF;
     padding: 0 10px 5px 10px;
     display: inline-block;
 }
+
 .main h1{
     margin: 40px 0px;
 }
-
+.inicio-main h2{
+    margin: 75px 0 10px 0;
+}
+.inicio-main .about-me{
+    width: 90%;
+    margin: auto;
+}
 
 /* Contact area */
 .contact-icon{
@@ -215,4 +218,13 @@ margin: 2vw 0 0 2vw;
 }
 .contact-buttons{
     display:block;
+}
+
+
+@media (min-width: 900px) {
+    .projects { grid-template-columns: repeat(2, 1fr); max-width: 65vw;}
+    .project { min-width: 28vw;}
+    .inicio-main .about-me{
+        width: 55%;
+    }
 }
