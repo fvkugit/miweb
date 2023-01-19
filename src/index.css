@@ -203,8 +203,8 @@ margin: 2vw 0 0 2vw;
 .inicio-main h2{
     margin: 75px 0 10px 0;
 }
-.inicio-main .about-me{
-    width: 90%;
+.bg-text{
+    width: 80%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.85);
     border-radius: 10px;
@@ -221,13 +221,14 @@ margin: 2vw 0 0 2vw;
 }
 .contact-buttons{
     display:block;
+    margin-bottom: 10px;
 }
 
 
 @media (min-width: 900px) {
     .projects { grid-template-columns: repeat(2, 1fr); max-width: 65vw;}
     .project { min-width: 28vw;}
-    .inicio-main .about-me{
+    .bg-text{
         width: 55%;
     }
 }
