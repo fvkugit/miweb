@@ -24,7 +24,7 @@ export default function Inicio(props) {
             <i className="devicon-git-plain colored shadow-1 k-icon"><span className="tooltiptext">Git</span></i>
           </div>
           <h2 className="shadow-1">Sobre mi</h2>
-          <div className="about-me">
+          <div className="bg-text">
           <p >Hola! Soy una persona a la cual le apasiona la tecnologia y la programación, 
           me gusta estar en constante aprendizaje con el fin de mejorar mis conocimientos y mantenerme actualizado. 
          </p>
